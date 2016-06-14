@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="GameCollet">
+      <UniqueIdentifier>{b2ecb07d-e102-4d54-b157-dcaf3f624904}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameCollet\TankGame">
+      <UniqueIdentifier>{4a16e23d-b516-441f-9ba4-6acd5fb55958}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameCollet\TankGame\헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="GameCollet\TankGame\헤더 파일\Scene &amp; Game">
+      <UniqueIdentifier>{9e526451-11f2-4cd5-bf7f-478c348c95e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameCollet\TankGame\헤더 파일\Object">
+      <UniqueIdentifier>{eac056ba-4710-4727-abd5-c28702bd179d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameCollet\TankGame\헤더 파일\Etc">
+      <UniqueIdentifier>{bb2eac71-964c-40a3-9ba2-518495f20beb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameCollet\DudogiGame">
+      <UniqueIdentifier>{2178f205-1fc1-4e93-9af0-08bc458e260f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameCollet\DudogiGame\소스 파일">
+      <UniqueIdentifier>{1b650a92-dad7-4378-a677-efdebbb1763d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameCollet\DudogiGame\헤더 파일">
+      <UniqueIdentifier>{dfc03340-81dd-4af7-b84f-61a5afcf30e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameCollet\TankGame\소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="GameCollet\TankGame\소스 파일\Scene &amp; Game">
+      <UniqueIdentifier>{cc3de60e-9099-4da1-8d33-58ae0f937df7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameCollet\TankGame\소스 파일\Etc">
+      <UniqueIdentifier>{03888212-47c5-4009-bcbe-6cafbf13f4f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameCollet\TankGame\소스 파일\Object">
+      <UniqueIdentifier>{60419236-e817-41ab-8c8f-19395d9ff147}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Input.cpp">
+      <Filter>GameCollet\TankGame\소스 파일\Etc</Filter>
+    </ClCompile>
+    <ClCompile Include="StageManager.cpp">
+      <Filter>GameCollet\TankGame\소스 파일\Etc</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>GameCollet\TankGame\소스 파일\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="TankGame.cpp">
+      <Filter>GameCollet\TankGame\소스 파일\Scene &amp; Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss.cpp">
+      <Filter>GameCollet\TankGame\소스 파일\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>GameCollet\TankGame\소스 파일\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Box.cpp">
+      <Filter>GameCollet\TankGame\소스 파일\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>GameCollet\TankGame\소스 파일\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Wall.cpp">
+      <Filter>GameCollet\TankGame\소스 파일\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>GameCollet\TankGame\소스 파일\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="DScreen.cpp">
+      <Filter>GameCollet\DudogiGame\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DudogiGame.cpp">
+      <Filter>GameCollet\DudogiGame\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManager.cpp">
+      <Filter>GameCollet\TankGame\소스 파일\Etc</Filter>
+    </ClCompile>
+    <ClCompile Include="Collect.cpp">
+      <Filter>GameCollet</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Object.h">
+      <Filter>GameCollet\TankGame\헤더 파일\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>GameCollet\TankGame\헤더 파일\Etc</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManager.h">
+      <Filter>GameCollet\TankGame\헤더 파일\Etc</Filter>
+    </ClInclude>
+    <ClInclude Include="StageManager.h">
+      <Filter>GameCollet\TankGame\헤더 파일\Etc</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility.h">
+      <Filter>GameCollet\TankGame\헤더 파일\Etc</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>GameCollet\TankGame\헤더 파일\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>GameCollet\TankGame\헤더 파일\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Box.h">
+      <Filter>GameCollet\TankGame\헤더 파일\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Wall.h">
+      <Filter>GameCollet\TankGame\헤더 파일\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss.h">
+      <Filter>GameCollet\TankGame\헤더 파일\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="TankGame.h">
+      <Filter>GameCollet\TankGame\헤더 파일\Scene &amp; Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>GameCollet\TankGame\헤더 파일\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="DScreen.h">
+      <Filter>GameCollet\DudogiGame\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="DudogiGame.h">
+      <Filter>GameCollet\DudogiGame\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="DObjects.h">
+      <Filter>GameCollet\DudogiGame\헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
